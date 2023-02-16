@@ -1,0 +1,51 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: rgb(235, 245, 242);
+    border-bottom: 1px solid #ccc;
+    border-radius: 10%;
+  }
+  
+  .meal h3 {
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    margin-right: 10%;
+    color: #ad5502;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .button {
+
+    font-size: 11px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    
+    /* box styles */
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid;
+    border-color: #2d86b6 #24659e #255796;
+    border-radius: 21px;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2) inset, 0 1px 1px rgba(1, 4, 8, 0.2);
+    
+    /* gradients */
+    background-color: #57a608;
+    *zoom: 1;
+      
+  }
+ 

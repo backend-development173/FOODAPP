@@ -14,6 +14,7 @@ const mealsinfo  = (props)=>{
             of course by experienced chefs!
           </p>
         </section>
+    
       );
     };
 
